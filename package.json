@@ -1,12 +1,13 @@
 {
   "name": "ts-todolist",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysia/openapi": "^2.0.0-rc.1",
+    "elysia": "rc"
   },
   "devDependencies": {
     "bun-types": "latest"
